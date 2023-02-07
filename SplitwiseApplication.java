@@ -5,8 +5,8 @@ import service.UserService;
 class SplitwiseApplication {
 
     public Data splitwisData = new Data();
-    public UserService userService = new UserService();
-    public ExpenseService expenseService = new ExpenseService();
+    private UserService userService = new UserService();
+    private ExpenseService expenseService = new ExpenseService();
 
     public ExpenseService getExpenseService() {
         return expenseService;
